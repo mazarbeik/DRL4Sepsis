@@ -4,7 +4,7 @@ This repository accompanies the following publication:
 
 > **Architecture and evaluation design shape offline reinforcement learning for sepsis treatment across two ICU cohorts**\
 > Mohammad Mahdi Azarbeik\*, Lorenz Kapral\*, Razvan Bologheanu, Richard Weiss, Emanuel Sallinger, Stefan J. Schaller, Oliver Kimberger†, Clemens Heitzinger†\
-> *Submitted to npj Digital Medicine*\
+> *In preparation for submission to npj Digital Medicine*\
 > \* These authors contributed equally as first authors.\
 > † These authors contributed equally as last authors.
 
@@ -73,11 +73,11 @@ DualDICE and GradientDICE are solved exactly in the discrete state space. For ea
 
 ## Code availability
 
-The cleaned code for cohort extraction, model training, off-policy evaluation and analysis is being added to this repository. The repository will also include the derived cohort definitions, the action bin edges and the aggregate results underlying every figure and table in the paper.
+**The full code will be made publicly available upon acceptance of the manuscript.**
+
+All code for cohort extraction, model training, off-policy evaluation (including the DICE estimators) and analysis is implemented in this repository. On release, it will also include the derived cohort definitions, the action bin edges and the aggregate results underlying every figure and table in the paper.
 
 The extraction and pre-processing pipeline was adapted from the Python reimplementation of Komorowski et al., available at: [https://github.com/cmudig/AI-Clinician-MIMICIV](https://github.com/cmudig/AI-Clinician-MIMICIV)
-
-Related repository on DICE estimators for sepsis: [https://github.com/Reinforcement-Learning-TU-Vienna/dice_rl_sepsis](https://github.com/Reinforcement-Learning-TU-Vienna/dice_rl_sepsis)
 
 The analyses used Python 3.10.16, PyTorch 2.5.1, scikit-learn 1.7.2 and NumPy 2.2.6.
 
@@ -109,7 +109,7 @@ If you use this work, please cite:
 ```
 Azarbeik, M.M.*, Kapral, L.*, Bologheanu, R., Weiss, R., Sallinger, E., Schaller, S.J., Kimberger, O.†, & Heitzinger, C.†
 Architecture and evaluation design shape offline reinforcement learning for sepsis treatment across two ICU cohorts.
-Submitted to npj Digital Medicine.
+In preparation for submission to npj Digital Medicine.
 ```
 
 ---
